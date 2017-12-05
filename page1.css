@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	/*background-color: mediumvioletred;*/
+    animation: changing 30s infinite;
+}
+@keyframes changing {
+      0%   {background: azure;}
+      10%  {background: mediumvioletred;}
+      20%  {background: purple;}
+      30%  {background: red;}
+	  40%  {background: orange;}
+	  50%  {background: yellow;}
+	  60%  {background: mediumspringgreen ;}
+	  70%  {background: lightcoral;}
+	  80%  {background: pink;}
+	  90%  {background: wheat;}
+	  100% {background: gold;}
+}
+a{
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 13px;
+}
+.main-nav{
+	background-color: white;
+	box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.3);
+}
+.fa-bars{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-left: 500px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown{
+	position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	margin-left: 500px;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .fa-bars{
+    background-color: black;
+	color: white;
+}
+.icons{
+	float: right;
+	margin-right: 500px;
+}
+.fa-home{
+	border: none;
+	background-color: white;
+	
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-home:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	transition: all 0.25s;
+}
+.fa-briefcase{
+	border: none;
+	background-color: white;
+	
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-briefcase:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	transition: all 0.25s;
+}
+.fa-phone{
+	border: none;
+	background-color: white;
+	
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-phone:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	transition: all 0.25s;
+}
+
+h4 {
+	font-family: "Courier New";
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 0;
+	letter-spacing: 4px;
+	font-size: 20px;
+}
+a1 {
+	display: inline-block;
+	background-color: limegreen;
+}
+a2 {
+	background-color: white;
+}
+a3 {
+	background-color: aqua;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Helvetica";
+	font-size: 130px;
+    text-align: center;
+}
+.logo{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.logo1{
+	width: 200px;
+}
+.logo2{
+	width: 300px;
+}
+ul.components {
+  padding: 0;
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.components li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+.components li:nth-child(odd) {
+  background: #0399ff;
+}
+.content{	
+	max-width: 800px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 20px 40px 40px;
+	text-align: left;
+	background: #fff;
+	border-bottom: 10px solid #ccc;
+	border-radius: 10px;
+}
+.content:hover {
+	background-color: #FFFAF0;
+    border-color: gold;
+}
+.flex{
+	display: flex;
+	margin: 0px auto 100px;
+	justify-content: space-around;
+	background-color: black;
+}
+
+.image1{
+	float:top;
+}
+
+h3{
+	font-family: "Helvetica";
+	font-size: 30px;
+}
+.description1{
+	font-family: "Arial", Arial, sans-serif;
+    font-size: 20px;
+	line-height: 1.6;
+	color: black;
+}
+
+.image2{
+	float:top;
+}
+
+.description2{
+	font-family: "Arial", Arial, sans-serif;
+    font-size: 20px;
+	line-height: 1.6;
+	color: black;
+}
+
+footer {
+	width: 100%;
+    min-height: 30px;
+	padding: 20px 20px 40px 20px;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display:inline-block;
+}
+.fa-facebook-square{
+	border: none;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-facebook-square:hover{
+	transition: 0.25s;
+	color: white;
+}
+.fa-instagram{
+	border: none;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-instagram:hover{
+	transition: 0.25s;
+	color: white;
+}
+.fa-weibo{
+	border: none;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-weibo:hover{
+	transition: 0.25s;
+	color: white;
+}
+.fa-linkedin-square{
+	border: none;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-linkedin-square:hover{
+	transition: 0.25s;
+	color: white;
+}
+.fter{  
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center; 
+  color: black;  
+}
